@@ -1,9 +1,9 @@
 package src.calculos;
 
-public class FiltroRecomendacao {
+public class RecommendationFilter {
     //private String recomendacao;
 
-    public void filtra(Classificavel classificavel) {
+    public void filtra(Classifiable classificavel) {
         if (classificavel.getClassificacao() >= 4) {
             System.out.println("Está entre os preferidos do momento");
         } else if (classificavel.getClassificacao() >= 2) {

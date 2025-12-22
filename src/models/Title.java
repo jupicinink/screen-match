@@ -1,6 +1,6 @@
 package src.models;
 
-public class Titulo {
+public class Title implements Comparable<Title> {
     private String nome;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -59,7 +59,9 @@ public class Titulo {
     }
 
     public int getClassificacao() {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'getClassificacao'");
+    }
+    public int compareTo(Title o) {
+        return this.getNome().compareTo(o.getNome());
     }
 }
