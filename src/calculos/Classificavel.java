@@ -1,5 +1,5 @@
 package src.calculos;
 
-public interface  Classifiable {
+public interface  Classificavel {
     int getClassificacao();
 }

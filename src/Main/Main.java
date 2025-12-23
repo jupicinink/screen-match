@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 
 import src.calculos.TimeCalculator;
-import src.calculos.RecommendationFilter;
+import src.calculos.FiltroRecomendacao;
 import src.models.Episode;
 import src.models.Movie;
 import src.models.Serie;
@@ -42,7 +42,7 @@ public class Main {
         calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
 
-        RecommendationFilter filtro = new RecommendationFilter();
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
         filtro.filtra(meuFilme);
 
         Episode episodio = new Episode();

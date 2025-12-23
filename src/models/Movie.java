@@ -1,8 +1,8 @@
 package src.models;
 
-import src.calculos.Classifiable;
+import src.calculos.Classificavel;
 
-public class Movie extends Title implements Classifiable {
+public class Movie extends Title implements Classificavel {
     private String diretor;
 
     public Movie (String nome, int anoDeLancamento){

@@ -1,8 +1,8 @@
 package src.models;
-import src.calculos.Classifiable;
+import src.calculos.Classificavel;
 
 
-public class Episode implements Classifiable {
+public class Episode implements Classificavel {
     private int numero;
     private String nome;
     private Serie serie;
