@@ -7,8 +7,7 @@ public class Serie extends Title {
     private int minutosPorEpisodio;
 
     public Serie(String nome, int anoDeLancamento){
-        this.setNome(nome);
-        this.setAnoDeLancamento(anoDeLancamento);   
+       super(nome, anoDeLancamento);
     }
     
     public int getTemporadas() {

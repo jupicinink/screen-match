@@ -5,9 +5,8 @@ import src.calculos.Classificavel;
 public class Movie extends Title implements Classificavel {
     private String diretor;
 
-    public Movie (String nome, int anoDeLancamento){
-        this.setNome(nome);
-        this.setAnoDeLancamento(anoDeLancamento);
+   public Movie(String nome, int anoDeLancamento) {
+        super(nome, anoDeLancamento);
     }
     
     public String getDiretor() {
