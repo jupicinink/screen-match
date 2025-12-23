@@ -1,1 +1,1 @@
-{"nome":"Dogville","anoDeLancamento":2003,"incluidoNoPlano":false,"somaDasAvaliacoes":0.0,"totalDeAvaliacoes":0,"duracaoEmMinutos":171}
+{"nome":"Top Gun","anoDeLancamento":1986,"incluidoNoPlano":false,"somaDasAvaliacoes":0.0,"totalDeAvaliacoes":0,"duracaoEmMinutos":110}
